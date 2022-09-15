@@ -1,0 +1,36 @@
+.checkbox {
+    all: unset;
+}
+
+.switch {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: var(--colors-font-title);
+}
+
+.switch__title {
+    margin: 0;
+    transition: 1s;
+}
+
+.switch__title_login {
+    text-decoration: overline;
+}
+
+.switch__title_registration {
+    opacity: .5;
+    transform: scale(0.7);
+}
+
+.checkbox:checked~.switch .switch__title_registration {
+    opacity: 1;
+    transform: scale(1);
+    text-decoration: overline;
+}
+
+.checkbox:checked~.switch .switch__title_login {
+    opacity: .5;
+    transform: scale(0.7);
+    text-decoration: none;
+}

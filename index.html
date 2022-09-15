@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Menu</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/input.css">
+    <link rel="stylesheet" href="./styles/button.css">
+    <link rel="stylesheet" href="./styles/checkbox.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="menu">
+
+        <input id="switch" class="checkbox" type="checkbox">
+
+        <label for="switch" class="switch">
+            <h1 class="switch__title switch__title_login">Вход</h1>
+            <h1 class="switch__title switch__title_registration">Регистрация</h1>
+        </label>
+
+        <div class="cards-wrapper">
+
+            <div class="card card_front">
+
+                <div class="card__upper-layer">
+
+                    <h1 class="card__title">Вход</h1>
+
+                    <label class="custom-input">
+                        <i class="fa-solid fa-at"></i>
+                        <input class="custom-input__text-area" type="login" placeholder="Введите логин">
+                    </label>
+
+                    <label class="custom-input">
+                        <i class="fa-solid fa-lock"></i>
+                        <input class="custom-input__text-area" type="password" placeholder="Введите пароль">
+                    </label>
+
+                    <button class="button">Войти</button>
+
+                </div>
+            </div>
+
+            <div class="card card_back">
+                <div class="card__upper-layer">
+
+                    <h1 class="card__title">Регистрация</h1>
+
+                    <label class="custom-input">
+                        <i class="fa-solid fa-user"></i>
+                        <input class="custom-input__text-area" type="login" placeholder="ФИО">
+                    </label>
+
+                    <label class="custom-input">
+                        <i class="fa-solid fa-at"></i>
+                        <input class="custom-input__text-area" type="login" placeholder="Введите логин">
+                    </label>
+
+                    <label class="custom-input">
+                        <i class="fa-solid fa-lock"></i>
+                        <input class="custom-input__text-area" type="password" placeholder="Введите пароль">
+                    </label>
+
+                    <button class="button">Продолжить</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/e5922e4f18.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

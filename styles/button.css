@@ -1,0 +1,14 @@
+.button {
+    all: unset;
+    color: var(--colors-font-main);
+    border: 1px solid var(--colors-font-main);
+    border-radius: 5px;
+    padding: .25rem 1rem .25rem 1rem;
+    transition: .75s;
+    font-size: 1rem;
+}
+
+.button:hover {
+    color: var(--color-input-color);
+    border-color: var(--color-input-color);
+}
